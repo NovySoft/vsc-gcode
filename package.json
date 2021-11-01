@@ -1,0 +1,25 @@
+{
+    "name": "vsc-gcode",
+    "displayName": "G-code for VSC",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.61.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "gcode",
+            "aliases": ["G-code", "gcode"],
+            "extensions": [".nc",".cnc",".ngc",".gcode"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "gcode",
+            "scopeName": "source.gcode",
+            "path": "./syntaxes/gcode.tmLanguage.json"
+        }]
+    }
+}
