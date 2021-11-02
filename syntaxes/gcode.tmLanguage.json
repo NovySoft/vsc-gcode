@@ -32,7 +32,11 @@
 					"name": "string.regexp.gcode"
 				},
 				{
-					"match": "(?<=\\s)(X|Y|Z)(?=\\s)",
+					"match": "(?<=\\s)([fF]|[eE]|[sS])(?=\\s)",
+					"name": "string.regexp.gcode"
+				},
+				{
+					"match": "(?<=\\s)([xX]|[xY]|[zZ])(?=\\s)",
 					"name": "string.gcode"
 				}
 			]
