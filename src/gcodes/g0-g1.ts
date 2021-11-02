@@ -13,6 +13,8 @@ G1 [E<pos>] [F<rate>] [S<power>] [X<pos>] [Y<pos>] [Z<pos>]
 - \`[Y<pos>]\`: An absolute or relative coordinate on the Y (vertical) axis (in current units).
 - \`[Z<pos>]\`: An absolute or relative coordinate on the Z (depth) axis (in current units).
 
+### Description
+
 The \`G0\` and \`G1\` commands add a linear move to the queue to be performed after all previous moves are completed. These commands yield control back to the command parser as soon as the move is queued, but they may delay the command parser while awaiting a slot in the queue.
 
 A linear move traces a straight line from one point to another, ensuring that the specified axes will arrive simultaneously at the given coordinates (by linear interpolation). The speed may change over time following an acceleration curve, according to the acceleration and jerk settings of the given axes.
