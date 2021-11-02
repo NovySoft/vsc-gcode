@@ -11,7 +11,7 @@ export function activate(context: vscode.ExtensionContext) {
 		provideHover(document, position, token) {
 			console.log("provideHover");
 			return new vscode.Hover(
-				new vscode.MarkdownString('For *all* TypeScript documents.')
+				new vscode.MarkdownString('For *all* documents.')
 			);
 		}
 	});
