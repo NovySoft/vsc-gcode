@@ -9,17 +9,36 @@
     "categories": [
         "Programming Languages"
     ],
+    "main": "./out/extension.js",
+    "activationEvents": [
+        "onLanguage:gcode"
+    ],
+    "capabilities": {
+        "hoverProvider": "true"
+    },
     "contributes": {
-        "languages": [{
-            "id": "gcode",
-            "aliases": ["G-code", "gcode"],
-            "extensions": [".nc",".cnc",".ngc",".gcode"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "gcode",
-            "scopeName": "source.gcode",
-            "path": "./syntaxes/gcode.tmLanguage.json"
-        }]
+        "languages": [
+            {
+                "id": "gcode",
+                "aliases": [
+                    "G-code",
+                    "gcode"
+                ],
+                "extensions": [
+                    ".nc",
+                    ".cnc",
+                    ".ngc",
+                    ".gcode"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "gcode",
+                "scopeName": "source.gcode",
+                "path": "./syntaxes/gcode.tmLanguage.json"
+            }
+        ]
     }
 }
