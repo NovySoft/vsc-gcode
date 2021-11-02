@@ -30,6 +30,10 @@
 				{
 					"match": "([fF|eE|sS])\\s?(\\-?\\d*\\.?\\d+\\.?|\\-?\\.?(?=[#\\[]))",
 					"name": "string.regexp.gcode"
+				},
+				{
+					"match": "(?<=\\s)(X|Y|Z)(?=\\s)",
+					"name": "string.gcode"
 				}
 			]
 		},
