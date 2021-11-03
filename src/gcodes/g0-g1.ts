@@ -1,4 +1,5 @@
 const content = `
+## G0/G1 - Linear Move
 ### Usage
 
 \`\`\`

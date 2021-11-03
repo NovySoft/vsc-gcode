@@ -38,6 +38,10 @@
 				{
 					"match": "(?<=\\s)([xX]|[xY]|[zZ])(?=\\s)",
 					"name": "string.gcode"
+				},
+				{
+					"match": "([iI|jJ|pP|rR|qQ])\\s?(\\-?\\d*\\.?\\d+\\.?|\\-?\\.?(?=[#\\[]))",
+					"name": "token.warn-token.gcode"
 				}
 			]
 		},

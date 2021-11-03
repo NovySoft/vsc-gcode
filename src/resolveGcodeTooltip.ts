@@ -1,6 +1,7 @@
 import * as g0 from './gcodes/g0-g1';
 import * as g2 from './gcodes/g2-g3';
 import * as g4 from './gcodes/g4';
+import * as g5 from './gcodes/g5';
 
 export async function resolveGcodeTooltip(gcode: string): Promise<string | undefined> {
     switch (gcode.toLowerCase()) {
@@ -12,6 +13,8 @@ export async function resolveGcodeTooltip(gcode: string): Promise<string | undef
             return g2.default;
         case "g4":
             return g4.default;
+        case "g5":
+            return g5.default;
         default:
             return undefined;
     }
