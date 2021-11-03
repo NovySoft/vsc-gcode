@@ -40,7 +40,11 @@
 					"name": "string.gcode"
 				},
 				{
-					"match": "([iI|jJ|pP|rR|qQ])\\s?(\\-?\\d*\\.?\\d+\\.?|\\-?\\.?(?=[#\\[]))",
+					"match": "(?<=\\s)([dD])(?=\\s)",
+					"name": "token.warn-token.gcode"
+				},
+				{
+					"match": "([iI|jJ|pP|rR|qQ|bB|cC|hH|kK|lL|oO|uU])\\s?(\\-?\\d*\\.?\\d+\\.?|\\-?\\.?(?=[#\\[]))",
 					"name": "token.warn-token.gcode"
 				}
 			]
