@@ -19,8 +19,6 @@ const content = `# M261 - I2C Request
 
 Request bytes from the I2C bus and echo them to the host. To find out how to do more useful things with I2C see the I2C master / slave article.
 
-
-### Examples
 `;
 
 export default content;

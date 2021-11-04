@@ -15,8 +15,6 @@ Hosts can use [M110](https://marlinfw.org/docs/gcode/M110.html) to set the curre
 
 ### Notes
 - 'All these are valid: \`N100 M110\`, \`M110 N100\`, \`N101 M110 N100\`.'
-
-### Examples
 `;
 
 export default content;

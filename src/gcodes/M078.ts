@@ -9,12 +9,6 @@ const content = `# M78 - Print Job Stats
 
 ### Description
 
-
-### Notes
-
-parameters:
-
-### Examples
 `;
 
 export default content;

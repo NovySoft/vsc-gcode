@@ -33,8 +33,6 @@ parameters:
 -
         tag: state
         type: byte
-
-### Examples
 `;
 
 export default content;

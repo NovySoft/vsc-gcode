@@ -11,12 +11,6 @@ const content = `# M360 - SCARA Theta A
 
 Move the nozzle to SCARA calibration position Theta 0 (A0 B120) for calibration of "zero degrees."
 
-
-### Notes
-
-parameters:
-
-### Examples
 `;
 
 export default content;

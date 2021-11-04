@@ -12,8 +12,6 @@ const content = `# M503 - Report Settings
 
 Print a concise report of all current settings (in SRAM) to the host console.
 
-
-### Examples
 `;
 
 export default content;

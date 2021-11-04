@@ -14,8 +14,6 @@ Stop writing to a file that was begun with [M28](https://marlinfw.org/docs/gcode
 
 ### Notes
 - Requires [SDSUPPORT](/docs/configuration/configuration.html#sd-card)
-
-### Examples
 `;
 
 export default content;

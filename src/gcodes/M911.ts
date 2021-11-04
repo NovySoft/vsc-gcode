@@ -11,8 +11,6 @@ const content = `# M911 - TMC OT Pre-Warn Condition
 
 Report the TMC stepper driver overtemperature pre-warn condition to the host.
 
-
-### Examples
 `;
 
 export default content;

@@ -14,8 +14,6 @@ const content = `# M666 - Set Delta endstop adjustments
 
 Use the [M666](https://marlinfw.org/docs/gcode/M666.html) command to adjust the endstop offsets on a Delta printer.
 
-
-### Examples
 `;
 
 export default content;

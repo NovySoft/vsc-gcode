@@ -19,8 +19,6 @@ Set lengths, feedrate, and Z lift for firmware-based retraction. See parameters 
 ### Notes
 - Requires \`FWRETRACT\`.
 - See related codes [G10](https://marlinfw.org/docs/gcode/G010.html), [G11](https://marlinfw.org/docs/gcode/G010.html), [M208](https://marlinfw.org/docs/gcode/M208.html), and [M209](https://marlinfw.org/docs/gcode/M209.html).
-
-### Examples
 `;
 
 export default content;

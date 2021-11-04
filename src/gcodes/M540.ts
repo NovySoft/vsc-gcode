@@ -16,8 +16,6 @@ Set whether SD printing should abort in the event of any endstop being triggered
 ### Notes
 - Requires \`SDSUPPORT\` and \`SD_ABORT_ON_ENDSTOP_HIT\`.
 - Use \`ENDSTOPS_ALWAYS_ON_DEFAULT\` or [M120](https://marlinfw.org/docs/gcode/M120.html) to ensure that endstops are enabled.
-
-### Examples
 `;
 
 export default content;

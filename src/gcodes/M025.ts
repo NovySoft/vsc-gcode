@@ -14,8 +14,6 @@ Pause the SD print in progress. If \`PARK_HEAD_ON_PAUSE\` is enabled, park the n
 
 ### Notes
 - Requires [SDSUPPORT](/docs/configuration/configuration.html#sd-card)
-
-### Examples
 `;
 
 export default content;

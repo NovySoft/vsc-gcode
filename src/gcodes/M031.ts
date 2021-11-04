@@ -15,12 +15,6 @@ If \`PRINTJOB_TIMER_AUTOSTART\` is enabled then the first [M109](https://marlinf
 
 For manual control from the host, use [M75](https://marlinfw.org/docs/gcode/M075.html), [M76](https://marlinfw.org/docs/gcode/M076.html), and [M77](https://marlinfw.org/docs/gcode/M077.html) to start, pause, and stop the print job timer.
 
-
-### Notes
-
-parameters:
-
-### Examples
 `;
 
 export default content;

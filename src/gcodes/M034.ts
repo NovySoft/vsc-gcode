@@ -20,8 +20,6 @@ Marlin now contains support for SDCard alphabetical file sorting in the LCD menu
 
 ### Notes
 - Requires [SDSUPPORT](/docs/configuration/configuration.html#sd-card) and \`SDCARD_SORT_ALPHA\`.
-
-### Examples
 `;
 
 export default content;

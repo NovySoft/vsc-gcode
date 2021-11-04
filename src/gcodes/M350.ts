@@ -147,8 +147,6 @@ parameters:
         tag: 8
 -
         tag: 16
-
-### Examples
 `;
 
 export default content;

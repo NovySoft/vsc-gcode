@@ -17,8 +17,6 @@ With software endstops enabled, moves will be clipped to the physical boundaries
 
 ### Notes
 - Requires either \`MIN_SOFTWARE_ENDSTOPS\` or \`MAX_SOFTWARE_ENDSTOPS\` for the enable option.
-
-### Examples
 `;
 
 export default content;

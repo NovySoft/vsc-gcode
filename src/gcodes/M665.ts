@@ -107,8 +107,6 @@ parameters:
     values:
 -
         type: float
-
-### Examples
 `;
 
 export default content;

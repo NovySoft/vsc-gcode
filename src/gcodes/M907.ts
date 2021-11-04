@@ -79,8 +79,6 @@ parameters:
     values:
 -
         tag: current
-
-### Examples
 `;
 
 export default content;

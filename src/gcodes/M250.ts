@@ -12,8 +12,6 @@ const content = `# M250 - LCD Contrast
 
 Set and/or get the LCD contrast. The value is constrained based on the LCD.
 
-
-### Examples
 `;
 
 export default content;

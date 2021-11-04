@@ -56,8 +56,6 @@ parameters:
 -
         unit: temp
         type: int
-
-### Examples
 `;
 
 export default content;
