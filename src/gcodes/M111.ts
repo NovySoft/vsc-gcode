@@ -23,18 +23,6 @@ Mask|Name|Description
 128|Reserved|Reserved for future usage
 
 
-### Notes
-
-parameters:
--
-    tag: S
-    optional: true
-    description: Debug flag bits
-    values:
--
-        tag: flags
-        type: byte
-
 ### Examples
 Enable extra messages
 \`\`\`gcode

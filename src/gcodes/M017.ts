@@ -20,42 +20,6 @@ If no steppers are specified, this command enables all steppers immediately.
 If one or more axes are specified, this command enables the specified steppers immediately.
 
 
-### Notes
-
-parameters:
--
-    tag: X
-    optional: true
-    description: X Enable
-    values:
--
-        tag: flag
-        type: bool
--
-    tag: Y
-    optional: true
-    description: Y Enable
-    values:
--
-        tag: flag
-        type: bool
--
-    tag: Z
-    optional: true
-    description: Z Enable
-    values:
--
-        tag: flag
-        type: bool
--
-    tag: E
-    optional: true
-    description: E Enable
-    values:
--
-        tag: flag
-        type: bool
-
 ### Examples
 Enable power on all stepper motors
 \`\`\`gcode

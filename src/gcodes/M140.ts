@@ -16,27 +16,6 @@ Set a new target temperature for the heated bed and continue without waiting. Th
 Use [M190](https://marlinfw.org/docs/gcode/M190.html) to wait for the bed to reach the target temperature.
 
 
-### Notes
-
-parameters:
--
-    tag: I
-    since: 2.0.6
-    optional: true
-    description: Material preset index. Overrides \`S\`.
-    values:
--
-        type: int
-        tag: index
--
-    tag: S
-    optional: true
-    description: Target temperature
-    values:
--
-        tag: temp
-        type: float
-
 ### Examples
 Set target temperature, no waiting
 \`\`\`gcode

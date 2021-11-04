@@ -13,20 +13,6 @@ const content = `# M381 - Deactivate Solenoids
 Deactivate all solenoids on all extruders.
 
 
-### Notes
-
-parameters:
--
-    tag: S
-    optional: true
-    since: 2.0.0
-    requires: MANUAL_SOLENOID_CONTROL
-    description: Solenoid index (Requires \`MANUAL_SOLENOID_CONTROL\`)
-    values:
--
-        tag: index
-        type: int
-
 ### Examples
 \`\`\`gcode
  M381 ; Deactivate all solenoids

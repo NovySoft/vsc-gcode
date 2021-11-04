@@ -17,34 +17,6 @@ Set the filament's current diameter and enable volumetric extrusion.
 In volumetric extrusion mode the E axis specifies cubic mm instead of linear mm, and the firmware calculates how much length to extrude for the given volume based on the filament diameter.
 
 
-### Notes
-
-parameters:
--
-    tag: D
-    optional: true
-    description: Filament diameter
-    values:
--
-        tag: diameter
-        type: float
--
-    tag: L
-    optional: true
-    description: Set volumetric extruder limit (in mm<sup>3</sup>/sec). \`L0\` disables the limit. (Requires \`VOLUMETRIC_EXTRUDER_LIMIT\`.)
-    values:
--
-        tag: volume
-        type: float
--
-    tag: S
-    optional: true
-    description: 0 to disable volumetric extrusion mode, otherwise volumetric is enabled.
-    values:
--
-        tag: flag
-        type: bool
-
 ### Examples
 'A common diameter close to 3mm:'
 \`\`\`gcode

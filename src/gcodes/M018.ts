@@ -23,50 +23,6 @@ If no steppers are specified, this command disables all steppers immediately.
 If one or more axes are specified, this command disables the specified steppers immediately.
 
 
-### Notes
-
-parameters:
--
-    tag: S
-    optional: true
-    description: Inactivity Timeout. If none specified, disable now.
-    values:
--
-        tag: seconds
-        type: int
--
-    tag: X
-    optional: true
-    description: X Disable
-    values:
--
-        tag: flag
-        type: bool
--
-    tag: Y
-    optional: true
-    description: Y Disable
-    values:
--
-        tag: flag
-        type: bool
--
-    tag: Z
-    optional: true
-    description: Z Disable
-    values:
--
-        tag: flag
-        type: bool
--
-    tag: E
-    optional: true
-    description: E Disable
-    values:
--
-        tag: flag
-        type: bool
-
 ### Examples
 Set the stepper inactivity timeout to 1 minute
 \`\`\`gcode

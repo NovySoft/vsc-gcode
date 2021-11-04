@@ -13,20 +13,6 @@ const content = `# M380 - Activate Solenoid
 Activate the solenoid on the active extruder.
 
 
-### Notes
-
-parameters:
--
-    tag: S
-    optional: true
-    since: 2.0.0
-    requires: MANUAL_SOLENOID_CONTROL
-    description: Solenoid index (Requires \`MANUAL_SOLENOID_CONTROL\`)
-    values:
--
-        tag: index
-        type: int
-
 ### Examples
 \`\`\`gcode
 
