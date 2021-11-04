@@ -23,7 +23,7 @@ Dwell pauses the command queue and waits for a period of time.
 \`\`\`gcode
 
        G4 P500 ; Dwell for 1/2 second
----
+
 \`\`\`
 `;
 

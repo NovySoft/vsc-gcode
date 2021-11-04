@@ -3,15 +3,10 @@ const content = `# M916 - L6474 Thermal Warning Test
 ## Find L6474 drive level (KVAL_HOLD) threshold
 ### Usage
 \`\`\`plaintext
- M916  [D<second|undefined|undefined|undefined>] [E<mm>] [F<feedrate>] [J<0|1|2|3|4|5|6|7>] [K<Kvalue>] [T<current>] [X<mm>] [Y<mm>] [Z<mm>]
+ M916  [D<second>] [E<mm>] [F<feedrate>] [J<0|1|2|3|4|5|6|7>] [K<Kvalue>] [T<current>] [X<mm>] [Y<mm>] [Z<mm>]
 \`\`\`
 
-- \`[D<second|undefined|undefined|undefined>]\`: 
-  - \`Dsecond\`: undefined
-  - \`Dundefined\`: undefined
-  - \`Dundefined\`: undefined
-  - \`Dundefined\`: undefined
-
+- \`[D<second>]\`: Time (in seconds) to run each setting of KVAL_HOLD/TVAL. (Default zero, to run each setting once.)
 - \`[E<mm>]\`: Monitor E with the given displacement (1 - 255mm) on either side of the current position.
 - \`[F<feedrate>]\`: Feedrate for the moves. (Default max feedrate if unspecified.)
 - \`[J<0|1|2|3|4|5|6|7>]\`: 

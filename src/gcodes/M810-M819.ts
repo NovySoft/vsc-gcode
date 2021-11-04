@@ -3,11 +3,10 @@ const content = `# M810/M811/M812/M813/M814/M815/M816/M817/M818/M819 - G-code ma
 ## Set/execute one of ten G-code macros
 ### Usage
 \`\`\`plaintext
- M810/M811/M812/M813/M814/M815/M816/M817/M818/M819  [undefined>]
+ M810/M811/M812/M813/M814/M815/M816/M817/M818/M819  [string<string>]
 \`\`\`
 
-- \`[undefined>]\`: 
-
+- \`[string<string>]\`: Set Macro to the given commands, separated by the pipe character.
 
 ### Description
 
@@ -28,7 +27,7 @@ Run Macro 5
 \`\`\`gcode
 
        M815
----
+
 \`\`\`
 `;
 

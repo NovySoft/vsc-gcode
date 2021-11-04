@@ -25,7 +25,7 @@ Set the preferred starting acceleration (in units/s/s) for moves of different ty
 Set acceleration for printing moves to 2400mm/s/s
 \`\`\`gcode
  M204 P2400
----
+
 \`\`\`
 `;
 

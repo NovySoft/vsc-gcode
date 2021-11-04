@@ -3,17 +3,13 @@ const content = `# G34 - Z Steppers Auto-Alignment
 ## Align multiple Z steppers using a bed probe
 ### Usage
 \`\`\`plaintext
- G34  [undefined>] [undefined>] [undefined>] [undefined>]
+ G34  [A<float>] [E<bool>] [I<int>] [T<float>]
 \`\`\`
 
-- \`[undefined>]\`: 
-
-- \`[undefined>]\`: 
-
-- \`[undefined>]\`: 
-
-- \`[undefined>]\`: 
-
+- \`[A<float>]\`: Amplification (must be between 0.5 and 2.0)
+- \`[E<bool>]\`: Stow probe after probing each point.
+- \`[I<int>]\`: Iterations (must be between 1 and 30)
+- \`[T<float>]\`: Target accuracy (must be between 0.01 and 1.0)
 
 ### Description
 
@@ -26,9 +22,8 @@ Align multiple Z stepper motors using a bed probe by probing one position per st
 ### Examples
 'Align Z steppers:'
 \`\`\`gcode
-
-       G34
----
+ G34
+    
 \`\`\`
 `;
 

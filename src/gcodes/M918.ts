@@ -3,7 +3,7 @@ const content = `# M918 - L6474 Speed Warning Test
 ## Find L6474 speed threshold
 ### Usage
 \`\`\`plaintext
- M918  [E<mm>] [I<current>] [J<0|1|2|3|4|5|6|7>] [K<Kvalue>] [M<microsteps|undefined|undefined|undefined>] [T<current>] [X<mm>] [Y<mm>] [Z<mm>]
+ M918  [E<mm>] [I<current>] [J<0|1|2|3|4|5|6|7>] [K<Kvalue>] [M<microsteps>] [T<current>] [X<mm>] [Y<mm>] [Z<mm>]
 \`\`\`
 
 - \`[E<mm>]\`: Monitor E with the given displacement (1 - 255mm) on either side of the current position.
@@ -19,12 +19,7 @@ const content = `# M918 - L6474 Speed Warning Test
   - \`J7\`: Monitor only Z7, E7
 
 - \`[K<Kvalue>]\`: Value for KVAL_HOLD (0 - 255) (ignored for L6474). Report current value from driver if not specified.
-- \`[M<microsteps|undefined|undefined|undefined>]\`: 
-  - \`Mmicrosteps\`: undefined
-  - \`Mundefined\`: undefined
-  - \`Mundefined\`: undefined
-  - \`Mundefined\`: undefined
-
+- \`[M<microsteps>]\`: Value for microsteps (1 - 128). Report current value from driver if not specified.
 - \`[T<current>]\`: Current (mA) setting for TVAL (0 - 4A in 31.25mA increments, rounds down) - L6474 only. Report current value from driver if not specified.
 - \`[X<mm>]\`: Monitor X with the given displacement (1 - 255mm) on either side of the current position.
 - \`[Y<mm>]\`: Monitor Y with the given displacement (1 - 255mm) on either side of the current position.

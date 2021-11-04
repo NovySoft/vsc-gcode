@@ -25,7 +25,7 @@ Set the max acceleration for one or more axes (in current units-per-second squar
 'Set max acceleration lower so it sounds like a robot:'
 \`\`\`gcode
  M201 X50 Y50
----
+
 \`\`\`
 `;
 

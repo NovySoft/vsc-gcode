@@ -3,7 +3,7 @@ const content = `# M860/M861/M862/M863/M864/M865/M866/M867/M868/M869 - I2C Posit
 ## I2C position encoders for closed loop control
 ### Usage
 \`\`\`plaintext
- M860/M861/M862/M863/M864/M865/M866/M867/M868/M869  [E<axis>] [I<index>] [O<bool>] [P<int>] [R<bool>] [S<addr>] [S<bool>] [T<float|undefined|undefined|undefined|undefined|undefined|undefined|undefined|undefined|undefined|undefined|undefined|undefined|undefined|undefined|undefined|undefined|undefined|undefined|undefined|undefined|undefined|undefined|undefined|undefined|undefined>] [U<bool>] [X<axis>] [Y<axis>] [Z<axis>]
+ M860/M861/M862/M863/M864/M865/M866/M867/M868/M869  [E<axis>] [I<index>] [O<bool>] [P<int>] [R<bool>] [S<addr>] [S<bool>] [T<float>] [U<bool>] [X<axis>] [Y<axis>] [Z<axis>]
 \`\`\`
 
 - \`[E<axis>]\`: Report on E axis encoder if present. (If A or I not specified)
@@ -13,34 +13,7 @@ const content = `# M860/M861/M862/M863/M864/M865/M866/M867/M868/M869 - I2C Posit
 - \`[R<bool>]\`: Reset error counter. (for M866 only)
 - \`[S<addr>]\`: Module new I2C address. [30, 200]. (for M864 only)
 - \`[S<bool>]\`: Enable/disable error correction. 1 enables, 0 disables.  If not supplied, toggle. (for M867 only)
-- \`[T<float|undefined|undefined|undefined|undefined|undefined|undefined|undefined|undefined|undefined|undefined|undefined|undefined|undefined|undefined|undefined|undefined|undefined|undefined|undefined|undefined|undefined|undefined|undefined|undefined|undefined>]\`: 
-  - \`Tundefined\`: undefined
-  - \`Tundefined\`: undefined
-  - \`Tundefined\`: undefined
-  - \`Tundefined\`: undefined
-  - \`Tundefined\`: undefined
-  - \`Tundefined\`: undefined
-  - \`Tundefined\`: undefined
-  - \`Tundefined\`: undefined
-  - \`Tundefined\`: undefined
-  - \`Tundefined\`: undefined
-  - \`Tundefined\`: undefined
-  - \`Tundefined\`: undefined
-  - \`Tundefined\`: undefined
-  - \`Tundefined\`: undefined
-  - \`Tundefined\`: undefined
-  - \`Tundefined\`: undefined
-  - \`Tundefined\`: undefined
-  - \`Tundefined\`: undefined
-  - \`Tundefined\`: undefined
-  - \`Tundefined\`: undefined
-  - \`Tundefined\`: undefined
-  - \`Tundefined\`: undefined
-  - \`Tundefined\`: undefined
-  - \`Tundefined\`: undefined
-  - \`Tundefined\`: undefined
-  - \`Tundefined\`: undefined
-
+- \`[T<float>]\`: New error correction threshold. (for M868 only)
 - \`[U<bool>]\`: Units in mm or raw step count. (for M860 only)
 - \`[X<axis>]\`: Report on X axis encoder if present. (If A or I not specified)
 - \`[Y<axis>]\`: Report on Y axis encoder if present. (If A or I not specified)

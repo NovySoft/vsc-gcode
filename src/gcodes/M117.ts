@@ -3,11 +3,10 @@ const content = `# M117 - Set LCD Message
 ## Set the message line on the LCD.
 ### Usage
 \`\`\`plaintext
- M117  [undefined>]
+ M117  [msg<string>]
 \`\`\`
 
-- \`[undefined>]\`: 
-
+- \`[msg<string>]\`: LCD status message
 
 ### Description
 

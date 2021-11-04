@@ -3,15 +3,12 @@ const content = `# M422 - Set Z Motor XY
 ## Set a Z motor position for G34 Auto-Alignment
 ### Usage
 \`\`\`plaintext
- M422  undefined> [undefined>] [undefined>]
+ M422  S<flag> [X<flag>] [Y<flag>]
 \`\`\`
 
-- \`undefined>\`: 
-
-- \`[undefined>]\`: 
-
-- \`[undefined>]\`: 
-
+- \`S<flag>\`: Z-Stepper index
+- \`[X<flag>]\`: X position
+- \`[Y<flag>]\`: Y position
 
 ### Description
 
@@ -26,7 +23,7 @@ Set the XY probe position for a given Z Stepper. See [G34](https://marlinfw.org/
 \`\`\`gcode
 
        M422 S0 X10 Y10
----
+
 \`\`\`
 `;
 

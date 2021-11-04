@@ -3,19 +3,13 @@ const content = `# G27 - Park toolhead
 ## Park the current toolhead
 ### Usage
 \`\`\`plaintext
- G27  [P<0|undefined|undefined|undefined|1|undefined|undefined|2|undefined>]
+ G27  [P<0|1|2>]
 \`\`\`
 
-- \`[P<0|undefined|undefined|undefined|1|undefined|undefined|2|undefined>]\`: 
-  - \`P0\`: If current Z
-  - \`Pundefined\`: undefined
-  - \`Pundefined\`: undefined
-  - \`Pundefined\`: undefined
-  - \`P1\`: No matter the current Z
-  - \`Pundefined\`: undefined
-  - \`Pundefined\`: undefined
-  - \`P2\`: The nozzle height will be raised by Z
-  - \`Pundefined\`: undefined
+- \`[P<0|1|2>]\`: 
+  - \`P0\`: If current Z_pos is lower than Z_park then the nozzle will be raised to reach Z_park height
+  - \`P1\`: No matter the current Z_pos, the nozzle will be raised/lowered to reach Z_park height
+  - \`P2\`: The nozzle height will be raised by Z_park amount but never going over the machine's limit of \`Z_MAX_POS\`
 
 
 ### Description

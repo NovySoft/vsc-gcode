@@ -16,7 +16,7 @@ Set units to millimeters. In this mode, all positions, offsets, rates, accelerat
 \`\`\`gcode
 
        G21 ; set units to millimeters
----
+
 \`\`\`
 `;
 

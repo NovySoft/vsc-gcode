@@ -3,12 +3,11 @@ const content = `# M34 - SDCard Sorting
 ## Set SDCard file sorting options.
 ### Usage
 \`\`\`plaintext
- M34  [F<|undefined|0|1>] [S<bool>]
+ M34  [F<minus_1|0|1>] [S<bool>]
 \`\`\`
 
-- \`[F<|undefined|0|1>]\`: 
-  - \`F\`: undefined
-  - \`Fundefined\`: Folders before files
+- \`[F<minus_1|0|1>]\`: 
+  - \`Fminus_1\`: Folders before files
   - \`F0\`: No folder sorting
   - \`F1\`: Folders after files
 

@@ -3,19 +3,15 @@ const content = `# M569 - Set TMC stepping mode
 ## Toggle stealthChop
 ### Usage
 \`\`\`plaintext
- M569  [undefined>] [I<int (index)>] [T<int (index)>] [undefined>] [undefined>] [undefined>]
+ M569  [E<flag>] [I<int (index)>] [T<int (index)>] [X<flag>] [Y<flag>] [Z<flag>]
 \`\`\`
 
-- \`[undefined>]\`: 
-
+- \`[E<flag>]\`: Stepping mode for the E0 stepper
 - \`[I<int (index)>]\`: Index for dual steppers. Use \`I1\` for X2, Y2, and/or Z2, and \`I2\` for Z3.
 - \`[T<int (index)>]\`: Index (tool) number for the E axis. If not specified, the E0 extruder.
-- \`[undefined>]\`: 
-
-- \`[undefined>]\`: 
-
-- \`[undefined>]\`: 
-
+- \`[X<flag>]\`: Stepping mode for the X stepper
+- \`[Y<flag>]\`: Stepping mode for the Y stepper
+- \`[Z<flag>]\`: Stepping mode for the Z stepper
 
 ### Description
 

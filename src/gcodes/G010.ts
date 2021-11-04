@@ -27,7 +27,7 @@ Performs two moves: a retract move at the retract feedrate/acceleration, and an 
 \`\`\`gcode
 
        G10 ; retract
----
+
 \`\`\`
 `;
 

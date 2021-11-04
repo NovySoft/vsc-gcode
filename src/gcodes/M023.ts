@@ -3,11 +3,10 @@ const content = `# M23 - Select SD file
 ## Select an SD file to be executed
 ### Usage
 \`\`\`plaintext
- M23  undefined>
+ M23  filename<string>
 \`\`\`
 
-- \`undefined>\`: 
-
+- \`filename<string>\`: The filename of the file to open.
 
 ### Description
 

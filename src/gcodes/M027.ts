@@ -3,11 +3,10 @@ const content = `# M27 - Report SD print status
 ## Print SD progress to serial
 ### Usage
 \`\`\`plaintext
- M27  [undefined>] [S<seconds>]
+ M27  [C<flag>] [S<seconds>]
 \`\`\`
 
-- \`[undefined>]\`: 
-
+- \`[C<flag>]\`: Report the filename and long filename of the current file
 - \`[S<seconds>]\`: Interval between auto-reports. \`S0\` to disable  (requires \`AUTO_REPORT_SD_STATUS\`)
 
 ### Description

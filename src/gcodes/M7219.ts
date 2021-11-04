@@ -3,17 +3,14 @@ const content = `# M7219 - MAX7219 Control
 ## Control Max7219 Segmented LEDs
 ### Usage
 \`\`\`plaintext
- M7219  [C<column>] [D<row>] [undefined>] [undefined>] [undefined>] [R<row>] [U<index>] [V<bits>] [X<index>] [Y<index>]
+ M7219  [C<column>] [D<row>] [F<flag>] [I<flag>] [P<flag>] [R<row>] [U<index>] [V<bits>] [X<index>] [Y<index>]
 \`\`\`
 
 - \`[C<column>]\`: Set the column specified by \`C\` to bit pattern \`V\`.
 - \`[D<row>]\`: Directly set a Max7219 native row (on the unit specified by \`U\`) to the 8-bit pattern \`V\`.
-- \`[undefined>]\`: 
-
-- \`[undefined>]\`: 
-
-- \`[undefined>]\`: 
-
+- \`[F<flag>]\`: Fill the matrix by turning on all LEDs.
+- \`[I<flag>]\`: Initialize (clear) all matrixes.
+- \`[P<flag>]\`: Print the LED array state for debugging.
 - \`[R<row>]\`: Set the row specified by \`R\` to bit pattern \`V\`.
 - \`[U<index>]\`: Used with \`D\` to specify which matrix unit to set.
 - \`[V<bits>]\`: Value to apply when using the \`C\`, \`R\`, or \`X\`/\`Y\` parameters.
@@ -24,8 +21,6 @@ const content = `# M7219 - MAX7219 Control
 
 Set the state of one or more Max7219 matrix displays or 7-segment digital displays.
 
-
-### Examples
 `;
 
 export default content;

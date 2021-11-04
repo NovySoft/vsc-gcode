@@ -3,13 +3,11 @@ const content = `# G76 - Probe temperature calibration
 ## Calibrate probe temperature compensation
 ### Usage
 \`\`\`plaintext
- G76  [undefined>] [undefined>]
+ G76  [B<flag>] [P<flag>]
 \`\`\`
 
-- \`[undefined>]\`: 
-
-- \`[undefined>]\`: 
-
+- \`[B<flag>]\`: Calibrate bed only
+- \`[P<flag>]\`: Calibrate probe only
 
 ### Description
 
@@ -29,7 +27,7 @@ See [Probe Temperature Compensation](/docs/features/probe_temp_compensation.html
        G76 ; calibrate bed, then probe
        G76 B ; calibrate bed only
        G76 P ; calibrate probe only
----
+
 \`\`\`
 `;
 

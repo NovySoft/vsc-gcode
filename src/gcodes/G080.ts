@@ -23,7 +23,7 @@ Cancels the current motion mode (G0 G1 G2 G3 G5 G38.X). With \`GCODE_MOTION_MODE
        X10 Y10 ; moves to X10 Y10 in motion mode G0
        G80 ; cancels the current motion mode
        X20 Y20 ; returns unknown command
----
+
 \`\`\`
 `;
 

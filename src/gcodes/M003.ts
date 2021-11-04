@@ -43,7 +43,7 @@ Turn on the laser at full / \`SPEED_POWER_STARTUP\` power
 Fire laser at 80% on next G1,G2 and G3 move
 \`\`\`gcode
  M3 S204 I
----
+
 \`\`\`
 `;
 

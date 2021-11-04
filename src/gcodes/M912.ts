@@ -3,14 +3,12 @@ const content = `# M912 - Clear TMC OT Pre-Warn
 ## Clear overtemperature pre-warn condition flag
 ### Usage
 \`\`\`plaintext
- M912  [E<"|undefined|0|undefined>] [I<0|1|2|3>] [X<int>] [Y<int>] [Z<int>]
+ M912  [E<"dash"|0to4>] [I<0|1|2|3>] [X<flag>] [Y<flag>] [Z<flag>]
 \`\`\`
 
-- \`[E<"|undefined|0|undefined>]\`: 
-  - \`E"\`: undefined
-  - \`Eundefined\`: All E.
-  - \`E0\`: undefined
-  - \`Eundefined\`: E index.
+- \`[E<"dash"|0to4>]\`: 
+  - \`E"dash"\`: All E.
+  - \`E0to4\`: E index.
 
 - \`[I<0|1|2|3>]\`: 
   - \`I0\`: Both.
@@ -18,9 +16,9 @@ const content = `# M912 - Clear TMC OT Pre-Warn
   - \`I2\`: Second (X2, Y2, Z2) steppers.
   - \`I3\`: Third (Z3) steppers.
 
-- \`[X<int>]\`: Clear \`X\` and/or \`X2\` stepper driver Over Temperature Pre-warn flag.
-- \`[Y<int>]\`: Clear \`Y\` and/or \`Y2\` stepper driver Over Temperature Pre-warn flag.
-- \`[Z<int>]\`: Clear \`Z\` and/or \`Z2\`  and/or \`Z3\` stepper driver Over Temperature Pre-warn flag.
+- \`[X<flag>]\`: Clear \`X\` and/or \`X2\` stepper driver Over Temperature Pre-warn flag.
+- \`[Y<flag>]\`: Clear \`Y\` and/or \`Y2\` stepper driver Over Temperature Pre-warn flag.
+- \`[Z<flag>]\`: Clear \`Z\` and/or \`Z2\`  and/or \`Z3\` stepper driver Over Temperature Pre-warn flag.
 
 ### Description
 
@@ -29,7 +27,7 @@ Clear the stepper driver overtemperature pre-warn condition flag.
 
 ### Examples
 \`\`\`gcode
- |
+
             M912     ; clear all
             M912 X   ; clear X and X2
             M912 X1  ; clear X1 only

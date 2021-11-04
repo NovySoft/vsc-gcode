@@ -148,6 +148,7 @@ function convert(input) {
             }
             if (itemObject.code != undefined) {
                 itemObject.code = itemObject.code.replaceAll(new RegExp(/(?<=\s)([\-])(?=\s)/g), "");
+                itemObject.code = itemObject.code.split("---")[0];
                 output += `\`\`\`gcode\r\n${itemObject.code}\r\n\`\`\`\r\n`;
             }
             if (itemObject.post != undefined) {

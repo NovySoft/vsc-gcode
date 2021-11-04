@@ -3,11 +3,10 @@ const content = `# M80 - Power On
 ## Turn on the power supply
 ### Usage
 \`\`\`plaintext
- M80  [undefined>]
+ M80  [S<flag>]
 \`\`\`
 
-- \`[undefined>]\`: 
-
+- \`[S<flag>]\`: 'Report Power Supply state'
 
 ### Description
 

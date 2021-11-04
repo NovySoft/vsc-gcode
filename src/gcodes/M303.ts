@@ -34,7 +34,7 @@ This command initiates a process of heating and cooling to determine the proper 
 \`\`\`gcode
 
      M303 E-1 C8 S60
----
+
 \`\`\`
 `;
 

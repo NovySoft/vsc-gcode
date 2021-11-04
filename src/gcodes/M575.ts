@@ -3,12 +3,11 @@ const content = `# M575 - Serial baud rate
 ## Change the serial baud rate
 ### Usage
 \`\`\`plaintext
- M575  B<baudrate> [undefined>]
+ M575  B<baudrate> [P<flag>]
 \`\`\`
 
 - \`B<baudrate>\`: |
-- \`[undefined>]\`: 
-
+- \`[P<flag>]\`: Serial Port index. Omit for all serial ports.
 
 ### Description
 

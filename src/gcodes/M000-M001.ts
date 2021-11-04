@@ -3,13 +3,11 @@ const content = `# M0/M1 - Unconditional stop
 ## Stop and wait for user
 ### Usage
 \`\`\`plaintext
- M0/M1  [P<ms>] [S<sec>] [undefined>]
+ M0/M1  [P<ms>] [S<sec>]
 \`\`\`
 
 - \`[P<ms>]\`: Expire time, in milliseconds
 - \`[S<sec>]\`: Expire time, in seconds
-- \`[undefined>]\`: 
-
 
 ### Description
 

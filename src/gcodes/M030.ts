@@ -3,11 +3,10 @@ const content = `# M30 - Delete SD file
 ## Delete a specified file from SD.
 ### Usage
 \`\`\`plaintext
- M30  undefined>
+ M30  filename<string>
 \`\`\`
 
-- \`undefined>\`: 
-
+- \`filename<string>\`: The filename of the file to delete.
 
 ### Description
 

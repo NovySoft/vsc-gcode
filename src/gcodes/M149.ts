@@ -3,15 +3,12 @@ const content = `# M149 - Set Temperature Units
 ## Set temperature units to Celsius, Fahrenheit, or Kelvin.
 ### Usage
 \`\`\`plaintext
- M149  [undefined>] [undefined>] [undefined>]
+ M149  [C<flag>] [F<flag>] [K<flag>]
 \`\`\`
 
-- \`[undefined>]\`: 
-
-- \`[undefined>]\`: 
-
-- \`[undefined>]\`: 
-
+- \`[C<flag>]\`: Celsius
+- \`[F<flag>]\`: Fahrenheit
+- \`[K<flag>]\`: Kelvin
 
 ### Description
 
@@ -25,16 +22,20 @@ parameters:
     tag: C
     optional: true
     description: Celsius
+    values:
+- type: flag
 -
     tag: F
     optional: true
     description: Fahrenheit
+    values:
+- type: flag
 -
     tag: K
     optional: true
     description: Kelvin
-
-### Examples
+    values:
+- type: flag
 `;
 
 export default content;

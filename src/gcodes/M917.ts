@@ -3,7 +3,7 @@ const content = `# M917 - L6474 Overcurrent Warning Test
 ## Find L6474 minimum current thresholds
 ### Usage
 \`\`\`plaintext
- M917  [E<mm>] [F<feedrate>] [I<current>] [J<0|1|2|3|4|5|6|7>] [K<Kvalue|undefined|undefined|undefined>] [T<current>] [X<mm>] [Y<mm>] [Z<mm>]
+ M917  [E<mm>] [F<feedrate>] [I<current>] [J<0|1|2|3|4|5|6|7>] [K<Kvalue>] [T<current>] [X<mm>] [Y<mm>] [Z<mm>]
 \`\`\`
 
 - \`[E<mm>]\`: Monitor E with the given displacement (1 - 255mm) on either side of the current position.
@@ -19,12 +19,7 @@ const content = `# M917 - L6474 Overcurrent Warning Test
   - \`J6\`: Monitor only Z6, E6
   - \`J7\`: Monitor only Z7, E7
 
-- \`[K<Kvalue|undefined|undefined|undefined>]\`: 
-  - \`KKvalue\`: undefined
-  - \`Kundefined\`: undefined
-  - \`Kundefined\`: undefined
-  - \`Kundefined\`: undefined
-
+- \`[K<Kvalue>]\`: Value for KVAL_HOLD (0 - 255) (ignored for L6474). Report current value from driver if not specified
 - \`[T<current>]\`: Current (mA) setting for TVAL (0 - 4A in 31.25mA increments, rounds down) - L6474 only. Report current value from driver if not specified.
 - \`[X<mm>]\`: Monitor X with the given displacement (1 - 255mm) on either side of the current position.
 - \`[Y<mm>]\`: Monitor Y with the given displacement (1 - 255mm) on either side of the current position.

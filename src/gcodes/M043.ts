@@ -3,19 +3,15 @@ const content = `# M43 - Debug Pins
 ## Get information about pins.
 ### Usage
 \`\`\`plaintext
- M43  [E<bool>] [undefined>] [P<pin>] [undefined>] [undefined>] [undefined>]
+ M43  [E<bool>] [I<flag>] [P<pin>] [S<flag>] [T<flag>] [W<flag>]
 \`\`\`
 
 - \`[E<bool>]\`: Watch endstops
-- \`[undefined>]\`: 
-
+- \`[I<flag>]\`: Ignore protection when reporting values
 - \`[P<pin>]\`: Digital Pin Number
-- \`[undefined>]\`: 
-
-- \`[undefined>]\`: 
-
-- \`[undefined>]\`: 
-
+- \`[S<flag>]\`: Test BLTouch type servo probes. Use \`P\` to specify servo index (0-3). Defaults to 0 if \`P\` omitted
+- \`[T<flag>]\`: Toggle pins - see [M43 T](https://marlinfw.org/docs/gcode/M043-T.html) for options
+- \`[W<flag>]\`: Watch pins
 
 ### Description
 
@@ -58,7 +54,7 @@ Toggle pins 3-6 five times with 1 second low and 1 second high pulses but only i
 Test probe controlled by servo index 2.
 \`\`\`gcode
  M43 S P2
----
+
 \`\`\`
 `;
 

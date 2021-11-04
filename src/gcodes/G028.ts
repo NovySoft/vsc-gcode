@@ -43,7 +43,7 @@ The position is easy to lose when the steppers are turned off, so homing may be 
 \`\`\`gcode
 
        G28 O ; Home all "untrusted" axes
----
+
 \`\`\`
 `;
 

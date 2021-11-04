@@ -17,7 +17,7 @@ Set units to inches. In this mode, all positions, offsets, rates, accelerations,
 \`\`\`gcode
 
        G20 ; set units to inches
----
+
 \`\`\`
 `;
 

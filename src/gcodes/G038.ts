@@ -3,15 +3,10 @@ const content = `# G38.2/G38.3/G38.4/G38.5 - Probe target
 ## Probe towards (or away from) a workpiece
 ### Usage
 \`\`\`plaintext
- G38.2/G38.3/G38.4/G38.5  [F<rate|undefined|undefined|undefined>] [X<pos>] [Y<pos>] [Z<pos>]
+ G38.2/G38.3/G38.4/G38.5  [F<rate>] [X<pos>] [Y<pos>] [Z<pos>]
 \`\`\`
 
-- \`[F<rate|undefined|undefined|undefined>]\`: 
-  - \`Frate\`: undefined
-  - \`Fundefined\`: undefined
-  - \`Fundefined\`: undefined
-  - \`Fundefined\`: undefined
-
+- \`[F<rate>]\`: Feedrate for the move
 - \`[X<pos>]\`: Target X
 - \`[Y<pos>]\`: Target Y
 - \`[Z<pos>]\`: Target Z

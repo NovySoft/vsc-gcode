@@ -3,13 +3,11 @@ const content = `# M28 - Start SD write
 ## Start writing to a file on the SD card
 ### Usage
 \`\`\`plaintext
- M28  [undefined>] undefined>
+ M28  [B1<flag>] filename<string>
 \`\`\`
 
-- \`[undefined>]\`: 
-
-- \`undefined>\`: 
-
+- \`[B1<flag>]\`: Set an optimized binary file transfer mode. (Requires \`BINARY_FILE_TRANSFER\`)
+- \`filename<string>\`: File name to write
 
 ### Description
 

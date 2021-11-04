@@ -3,11 +3,10 @@ const content = `# M928 - Start SD Logging
 ## Log serial input to an SD file
 ### Usage
 \`\`\`plaintext
- M928  undefined>
+ M928  filename<string>
 \`\`\`
 
-- \`undefined>\`: 
-
+- \`filename<string>\`: File name of log file
 
 ### Description
 

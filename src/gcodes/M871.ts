@@ -32,7 +32,7 @@ Read/write probe temperature compensation values. Values for bed and/or probe ca
        M871 P I1 V-5 ; set probe compensation value at index 1 to -5µm
        M871 B I2 V20 ; set bed compensation value at index 2 to 20µm
        M871 E I4 V-13 ; set extruder compensation value at index 4 to -13µm
----
+
 \`\`\`
 `;
 

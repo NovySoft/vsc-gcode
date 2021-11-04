@@ -3,15 +3,10 @@ const content = `# M951 - Magnetic Parking Extruder
 ## Set / report Magnetic Parking Extruder settings
 ### Usage
 \`\`\`plaintext
- M951  [C<float|undefined|undefined|undefined>] [D<float (linear)>] [H<float (linear)>] [I<float (linear)>] [J<float (linear)>] [L<float (linear)>] [R<float (linear)>]
+ M951  [C<float>] [D<float (linear)>] [H<float (linear)>] [I<float (linear)>] [J<float (linear)>] [L<float (linear)>] [R<float (linear)>]
 \`\`\`
 
-- \`[C<float|undefined|undefined|undefined>]\`: 
-  - \`Cundefined\`: undefined
-  - \`Cundefined\`: undefined
-  - \`Cundefined\`: undefined
-  - \`Cundefined\`: undefined
-
+- \`[C<float>]\`: Set compensation factor. (Default \`MPE_COMPENSATION\`)
 - \`[D<float (linear)>]\`: Set travel feedrate. (Default \`MPE_TRAVEL_DISTANCE\`)
 - \`[H<float (linear)>]\`: Set fast feedrate. (Default \`MPE_FAST_SPEED\`)
 - \`[I<float (linear)>]\`: Set grab distance. (Default \`PARKING_EXTRUDER_GRAB_DISTANCE\`)

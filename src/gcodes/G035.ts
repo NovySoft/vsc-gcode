@@ -3,19 +3,16 @@ const content = `# G35 - Tramming Assistant
 ## Run a procedure to tram the bed
 ### Usage
 \`\`\`plaintext
- G35  [S<30|31|undefined|40|41|undefined|50|51|undefined>]
+ G35  [S<30|31|40|41|50|51>]
 \`\`\`
 
-- \`[S<30|31|undefined|40|41|undefined|50|51|undefined>]\`: 
+- \`[S<30|31|40|41|50|51>]\`: 
   - \`S30\`: M3 clockwise
-  - \`S31\`: M3 counter
-  - \`Sundefined\`: undefined
+  - \`S31\`: M3 counterclockwise
   - \`S40\`: M4 clockwise
-  - \`S41\`: M4 counter
-  - \`Sundefined\`: undefined
+  - \`S41\`: M4 counterclockwise
   - \`S50\`: M5 clockwise
-  - \`S51\`: M5 counter
-  - \`Sundefined\`: undefined
+  - \`S51\`: M5 counterclockwise
 
 
 ### Description
@@ -31,7 +28,7 @@ This command runs an interactive procedure to help you adjust the bed corners so
 \`\`\`gcode
 
        G35 S40
----
+
 \`\`\`
 `;
 

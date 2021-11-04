@@ -19,7 +19,7 @@ Use this command to dwell until the probe reaches a given target temperature.
 
        M192 S44 ; Wait for probe temperature to go above 44C
        M192 R28 ; Wait for probe temperature to get close to 28C
----
+
 \`\`\`
 `;
 

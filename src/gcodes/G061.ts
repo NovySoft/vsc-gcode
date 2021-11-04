@@ -23,7 +23,7 @@ Move to the XY coordinates stored in slot 0
 \`\`\`gcode
 
        G61 XY S0
----
+
 \`\`\`
 `;
 

@@ -22,7 +22,7 @@ Save current position to slot 0
 \`\`\`gcode
 
        G60 S0
----
+
 \`\`\`
 `;
 

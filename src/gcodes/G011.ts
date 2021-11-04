@@ -25,7 +25,7 @@ Multiple consecutive \`G11\` or \`G11 S1\` commands without a corresponding [G10
 \`\`\`gcode
 
        G11 ; recover
----
+
 \`\`\`
 `;
 
