@@ -14,7 +14,7 @@ Select an SD file for printing or processing. Follow with [M24](https://marlinfw
 
 
 ### Notes
-- Requires [SDSUPPORT](/docs/configuration/configuration.html#sd-card)
+- Requires [SDSUPPORT](https://marlinfw.org/docs/configuration/configuration.html#sd-card)
 
 ### Examples
 Select a file and start it

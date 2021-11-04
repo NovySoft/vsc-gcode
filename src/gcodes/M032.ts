@@ -17,7 +17,7 @@ For legacy reasons [M32](https://marlinfw.org/docs/gcode/M032.html) uses '\`!\`'
 
 
 ### Notes
-- Requires [SDSUPPORT](/docs/configuration/configuration.html#sd-card)
+- Requires [SDSUPPORT](https://marlinfw.org/docs/configuration/configuration.html#sd-card)
 - This is a seldom-used beta feature that needs more testing and use-cases.
 
 ### Examples

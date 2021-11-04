@@ -17,7 +17,7 @@ If \`POWER_LOSS_RECOVERY\` is enabled [M24](https://marlinfw.org/docs/gcode/M024
 
 
 ### Notes
-- Requires [SDSUPPORT](/docs/configuration/configuration.html#sd-card)
+- Requires [SDSUPPORT](https://marlinfw.org/docs/configuration/configuration.html#sd-card)
 - Since Marlin 2.0.0, SD printing can be aborted with [M524](https://marlinfw.org/docs/gcode/M524.html).
 
 ### Examples

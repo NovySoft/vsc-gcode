@@ -13,7 +13,7 @@ Pause the SD print in progress. If \`PARK_HEAD_ON_PAUSE\` is enabled, park the n
 
 
 ### Notes
-- Requires [SDSUPPORT](/docs/configuration/configuration.html#sd-card)
+- Requires [SDSUPPORT](https://marlinfw.org/docs/configuration/configuration.html#sd-card)
 `;
 
 export default content;

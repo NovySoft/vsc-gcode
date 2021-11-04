@@ -14,7 +14,7 @@ Get the long name for a file based on the DOS 8.3 path.
 
 
 ### Notes
-- Requires [SDSUPPORT](/docs/configuration/configuration.html#sd-card) and \`LONG_FILENAME_HOST_SUPPORT\`
+- Requires [SDSUPPORT](https://marlinfw.org/docs/configuration/configuration.html#sd-card) and \`LONG_FILENAME_HOST_SUPPORT\`
 
 ### Examples
 Get the long path for a file

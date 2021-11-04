@@ -14,7 +14,7 @@ Set the next read position in the open SD file.
 
 
 ### Notes
-- Requires [SDSUPPORT](/docs/configuration/configuration.html#sd-card)
+- Requires [SDSUPPORT](https://marlinfw.org/docs/configuration/configuration.html#sd-card)
 
 ### Examples
 `;

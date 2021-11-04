@@ -17,7 +17,7 @@ With 'B1', set an optimized binary file transfer mode. (Requires \`BINARY_FILE_T
 
 
 ### Notes
-- Requires [SDSUPPORT](/docs/configuration/configuration.html#sd-card)
+- Requires [SDSUPPORT](https://marlinfw.org/docs/configuration/configuration.html#sd-card)
 - Use [M928](https://marlinfw.org/docs/gcode/M928.html) to log commands to a file during printing.
 
 ### Examples

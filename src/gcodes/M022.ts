@@ -15,7 +15,7 @@ Re-insert the SD card or use [M21](https://marlinfw.org/docs/gcode/M021.html) to
 
 
 ### Notes
-- Requires [SDSUPPORT](/docs/configuration/configuration.html#sd-card)
+- Requires [SDSUPPORT](https://marlinfw.org/docs/configuration/configuration.html#sd-card)
 
 ### Examples
 `;

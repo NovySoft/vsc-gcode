@@ -13,7 +13,7 @@ Abort an SD print in progress and turn off all heaters.
 
 
 ### Notes
-- Requires [SDSUPPORT](/docs/configuration/configuration.html#sd-card)
+- Requires [SDSUPPORT](https://marlinfw.org/docs/configuration/configuration.html#sd-card)
 
 ### Examples
 Abort an SD print

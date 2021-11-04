@@ -13,7 +13,7 @@ const content = `# G76 - Probe temperature calibration
 
 Calibrate temperature compensation offsets for bed and/or probe temperatures. Temperature compensation values are added to probe measurements when running [G29](https://marlinfw.org/docs/gcode/G029.html) mesh bed leveling. Currently, calibration only heats up the bed, not the hotend. The probe is heated up by bringing it close to the heated bed and cooled down by moving it away.
 
-See [Probe Temperature Compensation](/docs/features/probe_temp_compensation.html) for a more detailed explanation of the process.
+See [Probe Temperature Compensation](https://marlinfw.org/docs/features/probe_temp_compensation.html) for a more detailed explanation of the process.
 
 
 ### Notes

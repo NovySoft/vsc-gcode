@@ -16,7 +16,7 @@ Load filament into the active extruder. By default this will use the configured 
 
 
 ### Notes
-- Enabled using [FILAMENT_LOAD_UNLOAD_GCODES](/docs/configuration/configuration.html#advanced-pause).
+- Enabled using [FILAMENT_LOAD_UNLOAD_GCODES](https://marlinfw.org/docs/configuration/configuration.html#advanced-pause).
 - Uses the minimum temperature for safe extrusion as set by [M302](https://marlinfw.org/docs/gcode/M302.html).
 
 ### Examples

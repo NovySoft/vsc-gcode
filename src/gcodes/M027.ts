@@ -19,7 +19,7 @@ With \`C\`, get the currently open file's name (and long filename if possible). 
 
 
 ### Notes
-- Requires [SDSUPPORT](/docs/configuration/configuration.html#sd-card)
+- Requires [SDSUPPORT](https://marlinfw.org/docs/configuration/configuration.html#sd-card)
 
 ### Examples
 Report current SD status

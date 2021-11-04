@@ -14,7 +14,7 @@ Delete a file from the SD card.
 
 
 ### Notes
-- Requires [SDSUPPORT](/docs/configuration/configuration.html#sd-card)
+- Requires [SDSUPPORT](https://marlinfw.org/docs/configuration/configuration.html#sd-card)
 
 ### Examples
 Delete the file "/path/to/file.gco"

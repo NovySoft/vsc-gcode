@@ -20,7 +20,7 @@ Set the filament type for a Prusa MMU2 (or compatible) material slot.
 
 ### Notes
 - Requires a Prusa Multi-Material Unit v2.0.
-- Requires [PRUSA_MMU2](/docs/configuration/configuration.html#prusa-mmu2)
+- Requires [PRUSA_MMU2](https://marlinfw.org/docs/configuration/configuration.html#prusa-mmu2)
 
 ### Examples
 Set slot 0 to flexible

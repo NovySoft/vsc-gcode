@@ -18,7 +18,7 @@ The file size is included in the output since Marlin 1.1.0.
 
 
 ### Notes
-- Requires [SDSUPPORT](/docs/configuration/configuration.html#sd-card)
+- Requires [SDSUPPORT](https://marlinfw.org/docs/configuration/configuration.html#sd-card)
 
 ### Examples
 List the contents of the SD card

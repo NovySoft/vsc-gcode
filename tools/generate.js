@@ -7,7 +7,7 @@ function convert(input) {
 
     //Fix the links
     input = input.
-        replaceAll("](/docs/gcode/", "](https://marlinfw.org/docs/gcode/").
+        replaceAll("](/docs/", "](https://marlinfw.org/docs/").
         replaceAll("](//", "](https://");
 
     output += "#"; //Title
