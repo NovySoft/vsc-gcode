@@ -18,31 +18,6 @@ Unload filament. By default this command will use the configured \`ADVANCED_PAUS
 ### Notes
 - Enabled using [FILAMENT_LOAD_UNLOAD_GCODES](/docs/configuration/configuration.html#advanced-pause).
 - Uses the minimum temperature for safe extrusion as set by [M302](https://marlinfw.org/docs/gcode/M302.html).
-parameters:
--
-    tag: T
-    optional: true
-    description: Optional extruder number. If omitted, current extruder (or ALL extruders with [FILAMENT_UNLOAD_ALL_EXTRUDERS](/docs/configuration/configuration.html#advanced-pause)).
-    values:
--
-        tag: extruder
-        type: int
--
-    tag: Z
-    optional: true
-    description: Move the Z axis by this distance
-    values:
--
-        tag: distance
-        type: float
--
-    tag: U
-    optional: false
-    description: Retract distance for removal (manual reload)
-    values:
--
-        tag: distance
-        type: float
 
 ### Examples
 Unload filament from current extruder

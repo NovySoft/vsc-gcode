@@ -13,26 +13,6 @@ const content = `# M226 - Wait for Pin State
 
 Wait for a pin to have a certain value or state.
 
-
-### Notes
-
-parameters:
--
-    tag: P
-    optional: false
-    description: Pin number
-    values:
--
-        tag: pin
-        type: byte
--
-    tag: S
-    optional: true
-    description: State 0 or 1. Default -1 for inverted.
-    values:
--
-        tag: state
-        type: byte
 `;
 
 export default content;
