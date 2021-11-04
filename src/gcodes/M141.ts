@@ -6,7 +6,7 @@ const content = `# M141 - Set Chamber Temperature
  M141  [S<temp>]
 \`\`\`
 
-- \`[S<temp>]\`: 'Target temperature.<br/>\`AUTOTEMP\`: the min auto-temperature.'
+- \`[S<temp>]\`: 'Target temperature.\n\`AUTOTEMP\`: the min auto-temperature.'
 
 ### Description
 
@@ -19,7 +19,7 @@ parameters:
 -
     tag: S
     optional: true
-    description: 'Target temperature.<br/>\`AUTOTEMP\`: the min auto-temperature.'
+    description: 'Target temperature.\n\`AUTOTEMP\`: the min auto-temperature.'
     values:
 -
         tag: temp

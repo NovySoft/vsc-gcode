@@ -9,7 +9,7 @@ const content = `# M106 - Set Fan Speed
 - \`[I<index>]\`: Material preset index. Overrides \`S\`.
 - \`[P<index>]\`: Fan index
 - \`[S<speed>]\`: Speed, from 0 to 255. S255 provides 100% duty cycle; S128 produces 50%.
-- \`[T<secondary>]\`: |
+- \`[T<secondary>]\`: Secondary speed. Added in Marlin 1.1.7. (Requires \`EXTRA_FAN_SPEED\`) \n\`M106 P<fan> T3-255\` sets a secondary speed for \`<fan>\`.\n\`M106 P<fan> T2\` uses the set secondary speed.\n\`M106 P<fan> T1\` restores the previous fan speed.
 
 ### Description
 

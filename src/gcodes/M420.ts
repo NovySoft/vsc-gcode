@@ -15,7 +15,7 @@ const content = `# M420 - Bed Leveling State
   - \`T4\`: Compact
 
 - \`[V<bool>]\`: 'Verbose: Print the stored mesh / matrix data'
-- \`[Z<linear>]\`: |
+- \`[Z<linear>]\`: Set Z fade height (Requires \`ENABLE_LEVELING_FADE_HEIGHT\`)\nWith Fade enabled, bed leveling correction is gradually reduced as the nozzle gets closer to the Fade height. Above the Fade height no bed leveling compensation is applied at all, so movement is machine true.\nSet to 0 to disable fade, and leveling compensation will be fully applied to all layers of the print.
 
 ### Description
 

@@ -25,7 +25,7 @@ Do a communication check for configured TMC drivers. Trinamic drivers that suppo
 
 ### Notes
 - '\`TMC_DEBUG\` is no longer needed in Marlin 2.0.x, but enabling it produces an extended report.'
-- Responses of all \`LOW\` (\`00:00:00:00\`) or all \`HIGH\` (\`FF:FF:FF:FF\`) are signs of a communication problem.<br/>
+- Responses of all \`LOW\` (\`00:00:00:00\`) or all \`HIGH\` (\`FF:FF:FF:FF\`) are signs of a communication problem.\n
     See [TMC Troubleshooting](https://docs/hardware/tmc_drivers.html) for further information.
 
 ### Examples

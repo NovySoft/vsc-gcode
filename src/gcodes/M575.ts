@@ -6,7 +6,7 @@ const content = `# M575 - Serial baud rate
  M575  B<baudrate> [P<flag>]
 \`\`\`
 
-- \`B<baudrate>\`: |
+- \`B<baudrate>\`: The baud rate to set. Permitted values are:\n- 2400 (24)\n- 9600 (96)\n- 19200 (19, 192)\n- 38400 (38, 384)\n- 57600 (57, 576)\n- 115200 (115, 1152)\n- 250000 (250)\n- 500000 (500)\n- 1000000
 - \`[P<flag>]\`: Serial Port index. Omit for all serial ports.
 
 ### Description

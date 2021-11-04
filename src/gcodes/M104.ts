@@ -9,7 +9,7 @@ const content = `# M104 - Set Hotend Temperature
 - \`[B<temp>]\`: '\`AUTOTEMP\`: The max auto-temperature.'
 - \`[F<flag>]\`: '\`AUTOTEMP\`: Autotemp flag. Omit to disable autotemp.'
 - \`[I<index>]\`: Material preset index. Overrides \`S\`.
-- \`[S<temp>]\`: 'Target temperature.<br/>\`AUTOTEMP\`: the min auto-temperature.'
+- \`[S<temp>]\`: 'Target temperature.\n\`AUTOTEMP\`: the min auto-temperature.'
 - \`[T<index>]\`: Hotend index. If omitted, the currently active hotend will be used.
 
 ### Description
