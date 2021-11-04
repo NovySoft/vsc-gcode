@@ -1,9 +1,9 @@
 
-const content = `# G38.2/G38.3/G38.4/G38.5 - Probe target
+const content = `# G38/G38.2/G38.3/G38.4/G38.5 - Probe target
 ## Probe towards (or away from) a workpiece
 ### Usage
 \`\`\`plaintext
- G38.2/G38.3/G38.4/G38.5  [F<rate>] [X<pos>] [Y<pos>] [Z<pos>]
+ G38/G38.2/G38.3/G38.4/G38.5  [F<rate>] [X<pos>] [Y<pos>] [Z<pos>]
 \`\`\`
 
 - \`[F<rate>]\`: Feedrate for the move

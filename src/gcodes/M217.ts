@@ -29,8 +29,6 @@ If no parameters are given this command reports the current filament swap parame
 
 ### Notes
 - These values are stored in EEPROM.
-
-### Examples
 `;
 
 export default content;

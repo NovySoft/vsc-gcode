@@ -9,6 +9,7 @@ const content = `# M876 - Handle Prompt Response
 - \`S<response>\`: "Response to prompt"
 
 ### Description
+
 Handle responses from the host, such as:
   - Filament runout responses: Purge More, Continue
   - General "Continue" response
@@ -23,7 +24,6 @@ Handle responses from the host, such as:
 Respond \`Purge More\` to \`FILAMENT_RUNOUT\` prompt
 \`\`\`gcode
  M876 S0
---
 \`\`\`
 `;
 

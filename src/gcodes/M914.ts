@@ -21,8 +21,6 @@ Some TMC stepper drivers can detect when they bump into something that causes th
 - Set the default stall thresholds with \`*_STALL_SENSITIVITY\`.
 - |
     Compatible with TMC2130 and TMC2209.
-
-### Examples
 `;
 
 export default content;

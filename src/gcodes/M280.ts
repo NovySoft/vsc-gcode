@@ -13,8 +13,6 @@ const content = `# M280 - Servo Position
 
 Set or get the position of a servo.
 
-
-### Examples
 `;
 
 export default content;

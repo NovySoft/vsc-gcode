@@ -27,8 +27,6 @@ With \`AUTO_BED_LEVELING_UBL\` you can use \`L\` to load a mesh from EEPROM.
 ### Notes
 - [G28](https://marlinfw.org/docs/gcode/G028.html) disables bed leveling. Follow with \`M420 S\` to turn leveling on, or use \`RESTORE_LEVELING_AFTER_G28\` to automatically keep leveling on after [G28](https://marlinfw.org/docs/gcode/G028.html).
 - The "current position" may change in response to \`M420 Sn\`.
-
-### Examples
 `;
 
 export default content;

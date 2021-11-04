@@ -266,6 +266,7 @@ export async function resolveGcodeTooltip(gcode: string): Promise<string | undef
             return G034.default;
         case "g35":
             return G035.default;
+        case "g38":
         case "g38.2":
         case "g38.3":
         case "g38.4":

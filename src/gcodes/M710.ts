@@ -3,13 +3,13 @@ const content = `# M710 - Controller Fan settings
 ## Set or report controller fan settings
 ### Usage
 \`\`\`plaintext
- M710  [A<bool>] [D<seconds>] [I<speed>] [R<bool>] [S<speed>]
+ M710  [A<flag>] [D<seconds>] [I<speed>] [R<flag>] [S<speed>]
 \`\`\`
 
-- \`[A<bool>]\`: Set whether the fan speed is set automatically. When turned off the controller fan speed will remain where it is.
+- \`[A<flag>]\`: Set whether the fan speed is set automatically. When turned off the controller fan speed will remain where it is.
 - \`[D<seconds>]\`: Set the extra duration to keep the fan speed high after motors are turned off.
 - \`[I<speed>]\`: Set the speed of the controller fan when motors are off.
-- \`[R<bool>]\`: Reset all settings to defaults. Other parameters can be included to override.
+- \`[R<flag>]\`: Reset all settings to defaults. Other parameters can be included to override.
 - \`[S<speed>]\`: Set the speed of the controller fan when motors are active.
 
 ### Description
