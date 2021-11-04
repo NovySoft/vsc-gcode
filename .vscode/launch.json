@@ -6,6 +6,15 @@
 	"version": "0.2.0",
     "configurations": [
         {
+            "name": "Run generation",
+            "program": "${workspaceFolder}/tools/generate.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "node"
+        },
+        {
             "name": "Extension",
             "type": "extensionHost",
             "preLaunchTask": "build",

@@ -75,11 +75,15 @@
 					"comment": "G59.1, G59.2, G59.3"
 				},
 				{
-					"match": "[gG][0-9]{1,3}",
+					"match": "[gG][0-9]{1,4}",
 					"name": "constant.language.gcommand.gcode"
 				},
 				{
-					"match": "[mM][0-9]{1,3}",
+					"match": "[mM]43[tT]",
+					"name": "token.info-token.mcommand.gcode"
+				},
+				{
+					"match": "[mM][0-9]{1,4}",
 					"name": "token.info-token.mcommand.gcode"
 				},
 				{
