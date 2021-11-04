@@ -12,10 +12,6 @@ const content = `# M400 - Finish Moves
 This command causes G-code processing to pause and wait in a loop until all moves in the planner are completed.
 
 
-### Notes
-
-parameters:
-
 ### Examples
 Wait for moves to finish before playing a beep
 \`\`\`gcode

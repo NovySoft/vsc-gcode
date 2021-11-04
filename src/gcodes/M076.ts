@@ -12,10 +12,6 @@ const content = `# M76 - Pause Print Job
 Pause the print job timer.
 
 
-### Notes
-
-parameters:
-
 ### Examples
 Pause the print job timer
 \`\`\`gcode

@@ -29,12 +29,6 @@ Cap:EMERGENCY_PARSER:1
 
 Hosts use this information to improve interoperability, so it's a good feature to enable.
 
-
-### Notes
-
-parameters:
-
-### Examples
 `;
 
 export default content;
