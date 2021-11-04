@@ -23,6 +23,9 @@ Units will usually be set in steps-per-millimeter unless:
 
 ### Notes
 -  Get the current steps-per-unit settings using \`M92\` with no parameters or [M503](https://marlinfw.org/docs/gcode/M503.html) on older versions of Marlin.
+  With \`EEPROM_SETTINGS\` enabled:
+- This setting for all axes is saved with [M500](https://marlinfw.org/docs/gcode/M500.html) and loaded with [M501](https://marlinfw.org/docs/gcode/M501.html).
+- [M502](https://marlinfw.org/docs/gcode/M502.html) resets steps-per-unit for all axes to the values from \`DEFAULT_AXIS_STEPS_PER_UNIT\`.
 
 ### Examples
 Set E steps for a new extruder
