@@ -16,6 +16,16 @@
     "capabilities": {
         "hoverProvider": "true"
     },
+    "license": "BSD 3-Clause",
+    "homepage": "https://github.com/microsoft/vscode-wordcount/blob/main/README.md",
+    "bugs": {
+        "url": "https://github.com/NovySoft/vsc-gcode/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/NovySoft/vsc-gcode.git"
+    },
+    "icon": "https://raw.githubusercontent.com/NovySoft/vsc-gcode/main/images/logo.png",
     "contributes": {
         "languages": [
             {
