@@ -3,6 +3,7 @@
     "displayName": "G-code for VSC",
     "description": "",
     "version": "0.0.1",
+    "publisher": "Novy",
     "engines": {
         "vscode": "^1.61.0"
     },
@@ -25,7 +26,7 @@
         "type": "git",
         "url": "https://github.com/NovySoft/vsc-gcode.git"
     },
-    "icon": "https://raw.githubusercontent.com/NovySoft/vsc-gcode/main/images/logo.png",
+    "icon": "images/logo.png",
     "contributes": {
         "languages": [
             {
