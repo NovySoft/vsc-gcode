@@ -218,6 +218,8 @@ import * as M995 from './gcodes/M995';
 import * as M997 from './gcodes/M997';
 import * as M999 from './gcodes/M999';
 import * as T001T002 from './gcodes/T001-T002';
+import * as Tx from './gcodes/Tx';
+import * as Tc from './gcodes/Tc';
 export async function resolveGcodeTooltip(gcode: string): Promise<string | undefined> {
     switch (gcode.toLowerCase()) {
         case "g0":
@@ -706,5 +708,10 @@ export async function resolveGcodeTooltip(gcode: string): Promise<string | undef
         case "t5":
         case "t6":
             return T001T002.default;
+        case "Tx":
+        case "T?":
+            return Tx.default;
+        case "Tc":
+            return Tc.default;
 }
 }
