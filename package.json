@@ -2,7 +2,7 @@
     "name": "vsc-gcode",
     "displayName": "G-code for VSC",
     "description": "Marlin gcode documentation at your fingertips",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "publisher": "Novy",
     "engines": {
         "vscode": "^1.61.0"
