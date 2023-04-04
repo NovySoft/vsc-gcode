@@ -51,5 +51,11 @@
                 "path": "./syntaxes/gcode.tmLanguage.json"
             }
         ]
+    },
+    "dependencies": {
+        "typescript": "^5.0.3"
+    },
+    "devDependencies": {
+        "vscode": "^1.1.37"
     }
 }

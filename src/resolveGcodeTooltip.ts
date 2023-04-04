@@ -708,10 +708,10 @@ export async function resolveGcodeTooltip(gcode: string): Promise<string | undef
         case "t5":
         case "t6":
             return T001T002.default;
-        case "Tx":
-        case "T?":
+        case "tx":
+        case "t?":
             return Tx.default;
-        case "Tc":
+        case "tc":
             return Tc.default;
 }
 }

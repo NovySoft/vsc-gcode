@@ -89,6 +89,10 @@
 				{
 					"match": "[tT][0-9]{1,2}",
 					"name": "token.warn-token.mcommand.gcode"
+				},
+				{
+					"match": "[tT][cCxX?]",
+					"name": "token.warn-token.mcommand.gcode"
 				}
 			]
 		}

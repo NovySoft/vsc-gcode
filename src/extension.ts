@@ -12,6 +12,7 @@ export function activate(context: vscode.ExtensionContext) {
 		async provideHover(model, position) {
 			const wordRange = model.getWordRangeAtPosition(
 				position,
+				/[^\s]+/
 			);
 			const word = model.getText(wordRange);
 			return new vscode.Hover(
