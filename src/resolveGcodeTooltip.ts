@@ -211,6 +211,7 @@ import * as M915 from './gcodes/M915';
 import * as M916 from './gcodes/M916';
 import * as M917 from './gcodes/M917';
 import * as M918 from './gcodes/M918';
+import * as M919 from './gcodes/M919';
 import * as M928 from './gcodes/M928';
 import * as M951 from './gcodes/M951';
 import * as M993 from './gcodes/M993';
@@ -687,6 +688,8 @@ export async function resolveGcodeTooltip(gcode: string): Promise<string | undef
             return M917.default;
         case "m918":
             return M918.default;
+        case "m919":
+            return M919.default;
         case "m928":
             return M928.default;
         case "m951":
